@@ -1,0 +1,60 @@
+/* GENERICS */
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header{
+    background-color: #FF6900;
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+    color: white;
+    
+    
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.categories{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: calc(100% / 3);
+}
+
+.logo{
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    
+}
+
+.icons{
+    width: calc(100% / 3);
+    text-align: center;
+
+}
