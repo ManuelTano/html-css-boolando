@@ -7,6 +7,7 @@ body{
     font-family: sans-serif;
 }
 
+/* INTESTAZIONE */
 
 header{
     background-color: #FF6900;
@@ -19,27 +20,28 @@ header{
 }
 
 .container{
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
     
 }
 
-.row{
+.riga{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 18px;
     
 }
 
 .categories{
     width: calc(100% / 3);
-    text-align: center;
+    
 }
 
 a {
     text-decoration: none;
     color: white;
+    padding-left: 5px;
 }
 
 img{
@@ -55,6 +57,62 @@ img{
 
 .icons{
     width: calc(100% / 3);
-    text-align: center;
+    text-align: right;
 
+}
+
+i{
+    padding-right: 5px;
+}
+
+/* CORPO PRINCIPALE */
+
+.mini-container{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+article{
+   
+}
+
+.first-row{
+    width: 1400px;
+    
+    
+}
+
+.last-row{
+    width: 1400px;
+    
+}
+
+.col{
+    height: 700px;
+    width: calc(1400px / 3);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    
+    
+}
+
+.immagine1 {
+    background-image: url(/img/1.webp);
+}
+.immagine2 {
+    background-image: url(/img/2.webp);
+}
+.immagine3 {
+    background-image: url(/img/3.webp);
+}
+.immagine4 {
+    background-image: url(/img/4.webp);
+}
+.immagine5 {
+    background-image: url(/img/5.webp);
+}
+.immagine6 {
+    background-image: url(/img/6.webp);
 }
