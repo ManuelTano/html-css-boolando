@@ -66,6 +66,7 @@ i{
     
     width: 1400px;
     margin: 0 auto;
+    padding-top: 80px;
 }
 
 article{
@@ -74,6 +75,7 @@ article{
 .first-row{
     width: 1400px;
     display: flex;
+
 }
 
 .last-row{
@@ -157,7 +159,7 @@ footer{
 }
 
 .ultimate-row{
-    padding-top: 50px;
+    
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
