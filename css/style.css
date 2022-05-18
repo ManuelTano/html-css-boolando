@@ -17,6 +17,7 @@ header{
     color: white;
     position: fixed;
     z-index: 2;
+    box-shadow: 10px 5px 5px rgb(113, 113, 113,0.8);
 }
 
 .container{
