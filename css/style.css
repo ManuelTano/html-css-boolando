@@ -39,7 +39,6 @@ header{
 a {
     text-decoration: none;
     color: white;
-    padding-left: 5px;
 }
 
 #logo {
@@ -67,24 +66,102 @@ i{
 
 .images {
     width: 100%;
+    margin-left: 25px;
 }
 
-img-box{
+.img-box{
     position: relative;
 }
 
 .row{
-    padding-top: 100px;
     display: flex;
+    padding: 125px 20px;
 
+}
+
+.last-row{
+    display: flex;
+    padding: 0px 20px;
+    margin-bottom: 75px;
 }
 
 .column{
-   padding: 0 50;
+   padding: 0px 20px;
    flex-basis: 30%;
+   justify-content: space-between;
+   align-content: space-between;
 }
 
+.label-heart{
+    position: absolute;
+    top: 30px;
+    right: -25px;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 25px;
+}
 
+.label-1{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+}
+
+.label-3{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+    
+}
+
+.label-2{
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 85px;
+
+}
+
+.label-4{
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+
+}
+
+.price {
+    font-size: 14px;
+}
+
+.info-box{
+    padding-left: 25px
+}
+
+.red{
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+}
 
 /* FOOTER */
 
@@ -101,5 +178,11 @@ footer{
 }
 
 .red{
+    color: red;
+}
+
+/* PSEUDOELEMENTS */
+
+.label-heart:hover{
     color: red;
 }
