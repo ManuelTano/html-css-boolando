@@ -66,7 +66,7 @@ i{
 
 .images {
     width: 100%;
-    margin-left: 25px;
+    
 }
 
 .img-box{
@@ -75,27 +75,26 @@ i{
 
 .row{
     display: flex;
-    padding: 125px 20px;
+    padding: 130px 0px;
+    justify-content: space-between;
 
 }
 
 .last-row{
     display: flex;
-    padding: 0px 20px;
     margin-bottom: 75px;
+    justify-content: space-between;
 }
 
 .column{
-   padding: 0px 20px;
    flex-basis: 30%;
-   justify-content: space-between;
-   align-content: space-between;
+   
 }
 
 .label-heart{
     position: absolute;
     top: 30px;
-    right: -25px;
+    right: 0px;
     color: black;
     background-color: white;
     padding: 5px 10px;
@@ -110,7 +109,7 @@ i{
     font-size: 15px;
     position: absolute;
     bottom: 40px;
-    left: 25px;
+    
 }
 
 .label-3{
@@ -121,7 +120,7 @@ i{
     font-size: 15px;
     position: absolute;
     bottom: 40px;
-    left: 25px;
+    
     
 }
 
@@ -133,7 +132,7 @@ i{
     font-size: 15px;
     position: absolute;
     bottom: 40px;
-    left: 85px;
+    left: 60px;
 
 }
 
@@ -145,16 +144,11 @@ i{
     font-size: 15px;
     position: absolute;
     bottom: 40px;
-    left: 25px;
-
+    
 }
 
 .price {
     font-size: 14px;
-}
-
-.info-box{
-    padding-left: 25px
 }
 
 .red{
@@ -187,7 +181,16 @@ footer{
     color: red;
 }
 
-.images:hover{
-    background-image: url(/img/1b.webp);
-    
+.overlay{
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
+
+.img-box:hover .overlay{
+    display: block;
+    
+    }
