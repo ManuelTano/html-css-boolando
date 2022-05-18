@@ -20,13 +20,13 @@ header{
 }
 
 .container{
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .riga{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 18px;
     
@@ -42,13 +42,16 @@ a {
     padding-left: 5px;
 }
 
-img{
-    width: calc(100% / 3);
+#logo {
+    width: 200px;
+    height: 40px;
 }
 
 .logo{
     background-repeat: no-repeat;
     text-align: center;
+    
+
 }
 
 .icons{
@@ -62,93 +65,25 @@ i{
 
 /* CORPO PRINCIPALE */
 
-.mini-container{
-    
-    width: 1400px;
-    margin: 0 auto;
-    padding-top: 80px;
+.images {
+    width: 100%;
 }
 
-article{
-}
-
-.first-row{
-    width: 1400px;
-    display: flex;
-
-}
-
-.last-row{
-    width: 1400px;
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.col{
-    height: 700px;
-    width: calc(1400px / 3 - 20px);
-    background-size: cover;
-    background-position: center;
-    margin-top: 80px;
-    margin-left: 20px;
+img-box{
     position: relative;
-    
 }
 
-.immagine1 {
-    background-image: url(/img/1.webp);
-}
-.immagine2 {
-    background-image: url(/img/2.webp);
-}
-.immagine3 {
-    background-image: url(/img/3.webp);
-}
-.immagine4 {
-    background-image: url(/img/4.webp);
-}
-.immagine5 {
-    background-image: url(/img/5.webp);
-}
-.immagine6 {
-    background-image: url(/img/6.webp);
+.row{
+    padding-top: 100px;
+    display: flex;
+
 }
 
-.bg-red{
-    color: white;
-    background-color: red;
-    padding: 5px 10px;
-    font-weight: bold;
-    font-size: 15px;
-    position: absolute;
-    bottom: 20px;
+.column{
+   padding: 0 50;
+   flex-basis: 30%;
 }
 
-.bg-green{
-    color: white;
-    background-color: green;
-    padding: 5px 10px;
-    font-weight: bold;
-    font-size: 15px;
-    position: absolute;
-    bottom: 20px;
-}
-
-.space{
-    margin-left: 60px;
-}
-
-.heart {
-    color: black;
-    background-color: white;
-    font-weight: bold;
-    font-size: 40px;
-    position: absolute;
-    right: 0px;
-    top: 20px;
-    text-align: center;
-    padding: 0px 10px;
-}
 
 
 /* FOOTER */
